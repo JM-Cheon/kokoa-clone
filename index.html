@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to KoKoa Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <!-- To Do: Wifi Icon -->
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>10:05</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <!-- Battery Icon -->
+        <i class="fas fa-battery-full fa-lg"></i>
+        <!-- Lightning Icon -->
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to KoKoa Clone</h1>
+      <p class="welcome-header__text">
+        If you have KoKoa Account,<br />
+        log in with your email or phone number.
+      </p>
+    </header>
+
+    <form class="login-form">
+      <input
+        class="login-form__input"
+        type="text"
+        placeholder="Email or phone number"
+      />
+      <input class="login-form__input" type="password" placeholder="Password" />
+      <input class="login-form__btn" type="submit" value="Log In" />
+      <a class="login-form__a" href="#">Find KoKoa Account or Password</a>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/538b2269ac.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
