@@ -1,15 +1,11 @@
 # KoKoa Clone - 2021-12-22
 
----
-
 ## 개발환경
 
 ```
 Tool - VSCODE
 Language - HTML5, CSS3
 ```
-
----
 
 ## 프로젝트 설명 및 계획이유
 
